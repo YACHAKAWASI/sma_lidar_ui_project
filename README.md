@@ -12,17 +12,22 @@ sma_lidar_ui_project/
 ├── ros2_socket_bridge/ # Nodo Python que recibe /scan y envía por socket
 └── jade_lidar_agent/ # Agente JADE que recibe datos desde ROS 2    
 
+---   
 
 ## 🧠 Arquitectura del sistema
 
 ```plaintext
 ROS 2 (/scan) --> [scan_processor.py] --> Socket TCP --> [LidarAgent (JADE)]
 
+---
+
 ROS 2 publica datos del sensor LiDAR en el topic /scan.
 
 Un nodo Python (scan_processor.py) se suscribe a /scan, calcula el mínimo y máximo de distancia, y lo envía por socket.
 
 El agente LidarAgent en JADE recibe los datos y los muestra o los puede usar para tomar decisiones autónomas.
+
+---
 
 🚀 Requisitos
 Ubuntu 22.04
@@ -34,6 +39,8 @@ Python 3.10+
 Java JDK 8 o superior
 
 JADE (descargado como jade.jar)
+---
+
 
 🔧 Configuración del entorno
 1. Descargar JADE
