@@ -19,6 +19,8 @@ sma_lidar_ui_project/
 ```plaintext
 ROS 2 (/scan) --> [scan_processor.py] --> Socket TCP --> [LidarAgent (JADE)]
 
+```
+
 ---
 
 ROS 2 publica datos del sensor LiDAR en el topic /scan.
