@@ -11,11 +11,11 @@ sma_lidar_ui_project/
 ├── ros2_ws/ # Workspace ROS 2
 ├── ros2_socket_bridge/ # Nodo Python que recibe /scan y envía por socket
 └── jade_lidar_agent/ # Agente JADE que recibe datos desde ROS 2    
-
-  
 ```
-## 🧠 Arquitectura del sistema
+  
 
+## 🧠 Arquitectura del sistema
+```
 
 ROS 2 (/scan) --> [scan_processor.py] --> Socket TCP --> [LidarAgent (JADE)]
 
