@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000491] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.000583] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.009834] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.010249] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/ramos/sma_lidar_ui_project/ros2_ws/src/rplidar_ros', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/ramos/sma_lidar_ui_project/ros2_ws/install/rplidar_ros'], 'cwd': '/home/ramos/sma_lidar_ui_project/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('ROS_BU_LAUNCH', 'summit_xl_complete.launch'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ramos'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ramos'), ('OLDPWD', '/home/ramos/sma_lidar_ui_project/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '192.168.137.56'), ('SYSTEMD_EXEC_PID', '1646'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ramos/ros2_ws/install:/home/ramos/lidar_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ramos'), ('ONSHAPE_SECRET_KEY', 'F3xRl7y4hPv1igSziLLyd438rTuWcH7yBNXUrMG4KIsLJVwP'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('ROS_BU_PKG', 'summit_xl_sim_bringup'), ('USERNAME', 'ramos'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ramos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ramos/.dotnet/tools:/snap/bin'), ('SESSION_MANAGER', 'local/ramos-System-Product-Name:@/tmp/.ICE-unix/1619,unix/ramos-System-Product-Name:/tmp/.ICE-unix/1619'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af0ed334_048c_46eb_8f2b_5dd184bbfad7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.355'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ramos/ros2_ws/install/sjtu_drone_control:/home/ramos/ros2_ws/install/sjtu_drone_bringup:/home/ramos/ros2_ws/install/kuka_2f85_moveit:/home/ramos/ros2_ws/install/kuka_2f140_moveit:/home/ramos/ros2_ws/install/kuka_gazebo:/home/ramos/ros2_ws/install/robotiq_description:/home/ramos/ros2_ws/install/my_bot:/home/ramos/ros2_ws/install/kuka_moveit:/home/ramos/ros2_ws/install/kuka_description:/home/ramos/ros2_ws/install/kuka_control:/home/ramos/lidar_ws/install/lidar_odometry:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ramos/sma_lidar_ui_project/ros2_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ONSHAPE_ACCESS_KEY', 'NFBfHIvjuwwL2Y39IlCuhkob'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/ramos/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ramos/ros2_ws/install/sjtu_drone_control/lib/python3.10/site-packages:/home/ramos/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/ramos/ros2_ws/install/kuka_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '192.168.137.56'), ('ONSHAPE_API', 'https://cad.onshape.com'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ramos/ros2_ws/install/kuka_2f85_moveit:/home/ramos/ros2_ws/install/kuka_2f140_moveit:/home/ramos/ros2_ws/install/kuka_gazebo:/home/ramos/ros2_ws/install/robotiq_description:/home/ramos/ros2_ws/install/my_bot:/home/ramos/ros2_ws/install/kuka_moveit:/home/ramos/ros2_ws/install/kuka_description:/home/ramos/lidar_ws/install/lidar_odometry')]), 'shell': False}
+[0.043869] (rplidar_ros) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.044036] (rplidar_ros) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.044113] (rplidar_ros) StderrLine: {'line': b'  CMake.\n'}
+[0.044182] (rplidar_ros) StderrLine: {'line': b'\n'}
+[0.044249] (rplidar_ros) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.044335] (rplidar_ros) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.044405] (rplidar_ros) StderrLine: {'line': b'\n'}
+[0.044471] (rplidar_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[0.099886] (-) TimerEvent: {}
+[0.200177] (-) TimerEvent: {}
+[0.200856] (rplidar_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300316] (-) TimerEvent: {}
+[0.328231] (rplidar_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.341950] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400411] (-) TimerEvent: {}
+[0.408471] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.422623] (rplidar_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.423563] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.424509] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.431064] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500538] (-) TimerEvent: {}
+[0.507041] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.517376] (rplidar_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.517639] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.518049] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.535330] (rplidar_ros) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (find_package):\n'}
+[0.535524] (rplidar_ros) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.535620] (rplidar_ros) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[0.535702] (rplidar_ros) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.535781] (rplidar_ros) StderrLine: {'line': b'\n'}
+[0.535858] (rplidar_ros) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[0.535935] (rplidar_ros) StderrLine: {'line': b'  of the following names:\n'}
+[0.536012] (rplidar_ros) StderrLine: {'line': b'\n'}
+[0.536089] (rplidar_ros) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[0.536175] (rplidar_ros) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[0.536253] (rplidar_ros) StderrLine: {'line': b'\n'}
+[0.536349] (rplidar_ros) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[0.536430] (rplidar_ros) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[0.536508] (rplidar_ros) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.536585] (rplidar_ros) StderrLine: {'line': b'  installed.\n'}
+[0.536663] (rplidar_ros) StderrLine: {'line': b'\n'}
+[0.536739] (rplidar_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[0.536817] (rplidar_ros) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.536908] (rplidar_ros) StdoutLine: {'line': b'See also "/home/ramos/sma_lidar_ui_project/ros2_ws/build/rplidar_ros/CMakeFiles/CMakeOutput.log".\n'}
+[0.540324] (rplidar_ros) CommandEnded: {'returncode': 1}
+[0.562426] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 1}
+[0.572705] (-) EventReactorShutdown: {}
