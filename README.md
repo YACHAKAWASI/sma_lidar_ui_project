@@ -10,7 +10,7 @@ Este proyecto integra **ROS 2**, **JADE** (Java Agent DEvelopment Framework) y *
 sma_lidar_ui_project/
 ├── ros2_ws/ # Workspace ROS 2
 ├── ros2_socket_bridge/ # Nodo Python que recibe /scan y envía por socket
-└── jade_lidar_agent/ # Agente JADE que recibe datos desde ROS 2    ```
+└── jade_lidar_agent/ # Agente JADE que recibe datos desde ROS 2    
 
 
 ## 🧠 Arquitectura del sistema
