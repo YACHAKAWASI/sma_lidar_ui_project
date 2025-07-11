@@ -12,7 +12,7 @@ class ScanProcessor(Node):
             self.listener_callback,
             10)
         self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.socket.connect(('192.168.0.7', 8000))  # ← IP donde corre JADE
+        self.socket.connect(('xxxxxxxxxxx', 8000))  # ← IP donde corre JADE
 
     def listener_callback(self, msg):
         datos = [r for r in msg.ranges if r > 0.01 and r < msg.range_max]
